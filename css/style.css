@@ -42,9 +42,17 @@ body{
     font-weight: bold;
     color: white;
 }
-#jumbotronP p{
+#jumbotronDetails p{
     font-size: 1.5rem;
     font-weight: bold;
     color: white;
+}
+#jumbotronDetails button{
+    border: 0;
+    padding:10px 20px;
+    color: white;
+    background: var(--lightcolor);
+    font-weight: bold;
+    font-size:1.2rem;
 }
 
