@@ -30,3 +30,21 @@ body{
     text-transform: uppercase;
     color: var(--primarycolor);
 }
+
+/* jumbotron section */
+.jumbotron{
+    background: url('../images/home_bg.jpg') no-repeat;
+    background-size: cover;
+    height: calc(100vh - 85px);
+}
+#jumbotronH1 h1{
+    font-size: 5rem;
+    font-weight: bold;
+    color: white;
+}
+#jumbotronP p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
