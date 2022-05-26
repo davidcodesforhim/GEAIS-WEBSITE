@@ -10,12 +10,13 @@
   height: calc(100vh - 85px);
 }
 #jumbotronH1 h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: bold;
   color: white;
+  text-align: center;
 }
 #jumbotronDetails p {
-  font-size: 1.3rem;
+  font-size: .9rem;
   font-weight: bold;
   color: white;
 }
@@ -25,7 +26,9 @@
   color: white;
   background: var(--primarycolor);
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  width: 200px;
+  align-self: center;
   transition: margin-top 0.1s ease-out, background 0.1s ease-in;
 }
 #jumbotronDetails button:hover {
@@ -105,4 +108,36 @@
   font-size:5rem;
   text-align: center;
   text-shadow: 1px 1px 4px black;
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  #jumbotronDetails p {
+    font-size: .8rem;
+  }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+  #jumbotronDetails p {
+    font-size: 1rem;
+  }
+  #jumbotronH1 h1{
+    text-align: left;
+    font-size: 4rem;
+  }
+  #jumbotronDetails button{
+    font-size: 1.2rem;
+  width: 300px;
+  align-self: start;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  #jumbotronDetails p {
+    font-size: 1.1rem;
+  }
+  #jumbotronH1 h1{
+    font-size: 5rem;
+  }
 }
