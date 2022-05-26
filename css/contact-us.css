@@ -1,0 +1,24 @@
+.contacts {
+  padding: 30px 0;
+}
+.contacts .col-12 {
+  padding: 10px;
+}
+/* links */
+.contacts .col-12 a {
+  background-color: var(--primarycolor);
+  display: block;
+  margin: 1px;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  transition: margin-top 0.1s ease-out, opacity 0.1s ease-in;
+}
+.contacts .col-12 a:hover {
+  background-color: var(--lightcolor);
+  margin-top: -5px;
+}
+.contacts .col-12 a i {
+  font-size: 3rem;
+}
