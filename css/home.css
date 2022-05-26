@@ -10,7 +10,7 @@
   height: calc(100vh - 85px);
 }
 #jumbotronH1 h1 {
-  font-size: 3rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: white;
   text-align: center;
@@ -45,17 +45,18 @@
   margin-top: -50px;
   margin-bottom: 50px;
   background-color: white;
+  text-align: center;
   box-shadow: 0px 0px 20px 1px rgb(27, 27, 27, 0.4);
 }
 .informative-cards-img {
   width: 100%;
 }
-.informative-cards-header {
-  padding: 20px;
+.informative-cards-header h3{
+  font-size: 1rem;
   text-align: center;
-  color: black;
-  font-weight: 900;
-  font-size: 3rem;
+}
+.informative-cards-header {
+padding: 20px;
 }
 .informative-cards > .row > .col-12 {
   position: relative;
@@ -105,7 +106,7 @@
   transform: translate(-50%,-50%);
   z-index: 100;
   color: white;
-  font-size:5rem;
+  font-size:2rem;
   text-align: center;
   text-shadow: 1px 1px 4px black;
 }
@@ -129,6 +130,12 @@
     font-size: 1.2rem;
   width: 300px;
   align-self: start;
+  }
+  .informative-cards-header h3{
+    font-size: 1.2rem;
+  }
+  .shs-slide h1{
+  font-size: 5rem;
   }
 }
 
